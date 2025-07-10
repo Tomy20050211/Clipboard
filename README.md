@@ -5,7 +5,7 @@
 
 - COMO CLONAR Y VISUALIZAR EL PROYECTO?
 
-- 1...Ve al apartado de " <> code" y pegarel link del HTTTPS.
+- 1...Ve al apartado de " <> code" y pega el link del HTTTPS.
  <img width="439" height="374" alt="Captura desde 2025-07-10 11-25-53" src="https://github.com/user-attachments/assets/9e5d689b-9788-4ff4-b017-2aaea08ef943" />
 
 
