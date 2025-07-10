@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/Imgs/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 1870px;
+    font-family: "Bai Jamjuree", sans-serif;
+    Font-size: 18px;
+}
+
+
+body p {
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+    margin-top: 1.5rem;
+
+
+}
+
+
+header h1 {
+    margin-top: 2rem;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+
+}
+
+header p {
+    text-align: center;
+
+}
+
+.descriptionSnippets p {
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+
+header {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+    background-position: top left;
+
+
+
+}
+
+button {
+    border-radius: 3rem;
+    border: none;
+    width: 190px;
+    height: 50px;
+    color: white;
+    margin: 0.5rem;
+    margin-top: 2rem;
+    font-weight: 700;
+
+
+}
+
+.firstButton {
+    background: linear-gradient(315deg, hsl(171, 66%, 44%)50%, hsl(170, 50%, 44%) 50%);
+    background-size: 200% 200%;
+    background-position: bottom right;
+    transition: background-position 0.5s ease, color 0.5s ease;
+    box-shadow: hsl(171, 99%, 32%) 0 5px;
+
+}
+
+
+.secondButton {
+    background: linear-gradient(315deg, hsl(233, 100%, 69%)50%, hsl(233, 90%, 61%) 50%);
+    background-size: 200% 200%;
+    background-position: bottom right;
+    transition: background-position 0.5s ease, color 0.5s ease;
+    box-shadow: hsl(233, 92%, 64%) 0 5px;
+
+}
+
+.thirdButton {
+    background: linear-gradient(315deg, hsl(171, 66%, 44%)50%, hsl(170, 50%, 44%) 50%);
+    background-size: 200% 200%;
+    background-position: bottom right;
+
+    transition: background-position 0.5s ease, color 0.5s ease;
+
+    box-shadow: hsl(171, 99%, 32%) 0 5px;
+
+}
+
+.fourthButton {
+    background: linear-gradient(315deg, hsl(233, 100%, 69%)50%, hsl(233, 90%, 61%) 50%);
+    background-size: 200% 200%;
+    background-position: bottom right;
+    transition: background-position 0.5s ease, color 0.5s ease;
+    box-shadow: hsl(233, 92%, 64%) 0 5px;
+
+
+}
+
+.firstSight h2 {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+
+.firstSight {
+    margin-top: 5rem;
+}
+
+.firstGridContainer {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.firstGridContainer img{
+    animation: floating 2s ease-in-out infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.firstGridContainer h3 {
+    color: hsl(210, 10%, 33%);
+    margin-top: 3rem;
+}
+
+.firstGridContainer p {
+    margin-top: 0.5rem;
+    line-height: 2rem;
+}
+
+.descriptionClipboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+
+}
+
+.descriptionClipboard p {
+    text-align: center;
+}
+
+.descriptionClipboard img {
+    margin-top: 5rem;
+    animation: floating 2s ease-in-out infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes floating{
+    0% {
+        transform: translateY(-10px)
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.thirdGridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5rem;
+    text-align: center;
+
+}
+
+.thirdGridContainer h3 {
+    color: hsl(210, 10%, 33%);
+
+
+}
+
+.fourthFlexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+    gap: 10rem;
+
+
+
+}
+
+.fourthFlexcontainer img:hover {
+    transform: scale(1.3);
+
+}
+
+.fourthFlexcontainer img {
+    width: 200px;
+    transition: transform 0.2s ease;
+
+}
+
+.downloadClipboard h1 {
+    color: hsl(210, 10%, 33%);
+
+
+}
+
+.downloadClipboard {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+
+}
+
+footer img {
+    transition: transform 0.2s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+
+}
+
+footer li:hover {
+    transform: scale(1.1);
+    color: hsl(171, 66%, 44%);
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer li {
+    line-height: 3rem;
+    transition: transform 0.2s ease;
+}
+
+
+@media (max-width: 1250px) {
+    body {
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    button {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    header {
+        padding-left: 1rem;
+    }
+
+    .firstGridContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+
+
+
+    }
+
+    .firstGridContainer img {
+        width: 340px;
+        height: 250x;
+    }
+
+
+
+    .descriptionClipboard img {
+        width: 390px;
+        height: 250px;
+    }
+
+
+    .thirdGridContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 1rem;
+
+
+    }
+
+    .fourthFlexcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
