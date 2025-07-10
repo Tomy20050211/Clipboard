@@ -1,9 +1,12 @@
 # Clipboard
--Name: Tomas Salazar Ruiz.
--Clan: Gosling.
--Document: 1036449536
--Email. tomasruiz1104@gmail.com
+- Name: Tomas Salazar Ruiz.
+- 
+- Clan: Gosling.
+- 
+- Document: 1036449536
+- 
+- Email. tomasruiz1104@gmail.com
 
--COMO CLONAR Y VISUALIZAR EL PROYECTO?
+- COMO CLONAR Y VISUALIZAR EL PROYECTO?
 
 -
