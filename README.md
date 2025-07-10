@@ -1,4 +1,3 @@
-<img width="439" height="374" alt="Captura desde 2025-07-10 11-25-53" src="https://github.com/user-attachments/assets/8aa977e6-e218-409b-abe6-f70750c5d998" /># Clipboard
 - Name: Tomas Salazar Ruiz
 - Clan: Gosling
 - Document: 1036449536
